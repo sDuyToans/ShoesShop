@@ -1,0 +1,147 @@
+body header nav {
+  background-color: #000000;
+}
+body header nav .container-fluid .collapse .navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+body header nav .container-fluid .collapse .navbar-nav .nav-item .nav-link span {
+  color: #fff;
+  font-size: 20px;
+}
+body header .route {
+  padding-top: 20px;
+}
+body header .route .rouse-ul {
+  display: flex;
+}
+body header .route .rouse-ul .rouse-li {
+  list-style: none;
+  margin-right: 25px;
+  position: relative;
+}
+body header .route .rouse-ul .rouse-li ::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid #000000;
+}
+body header .route .rouse-ul .rouse-li :hover::before {
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+}
+body header .route .rouse-ul .rouse-li .rouse-a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.2px;
+  font-family: "Inter", sans-serif;
+}
+body header .route .rouse-ul .rouse-li .home-rouse {
+  font-weight: 400;
+}
+body header .route .rouse-ul :first-child {
+  padding-bottom: 10px;
+}
+body header .route .rouse-ul :first-child ::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid black;
+}
+body .register {
+  margin-bottom: 50px;
+}
+body .register .register-text {
+  margin-bottom: 50px;
+}
+body .register .register-text h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48.41px;
+  color: #000000;
+}
+body .register .register-form .form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+body .register .register-form .form-group input {
+  margin-bottom: 30px !important;
+  padding: 15px 20px;
+}
+body .register .register-form .form-group .input-field {
+  position: relative;
+}
+body .register .register-form .form-group .input-field .value-request {
+  position: absolute;
+  color: #F50E0E;
+  top: 0%;
+  left: 95%;
+}
+body .register .register-form .form-group .left-form {
+  width: 50%;
+}
+body .register .register-form .form-group .right-form {
+  width: 50%;
+}
+body .register .register-form .form-group .right-form .gender span {
+  font-size: 30px;
+  line-height: 36.31px;
+  font-weight: 400;
+  margin-right: 30px;
+}
+body .register .register-form .form-group .right-form .gender label {
+  font-size: 30px;
+  line-height: 36.31px;
+  font-weight: 400;
+  margin: 0 20px;
+}
+body .register .register-form .form-group .right-form button {
+  font-size: 30px;
+  line-height: 36.31px;
+  font-weight: 400;
+  background-color: #AE18E2;
+  padding: 5px 80px;
+  border: none;
+  color: #fff;
+}
+body footer .card .card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+body footer .card .card-body .footer-item ul {
+  padding-left: 0px;
+}
+body footer .card .card-body .footer-item ul li {
+  list-style: none;
+}
+body footer .card .card-body .footer-item ul li a {
+  text-decoration: none;
+  color: orangered;
+}
+body footer .card .card-footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+body footer .card .card-footer .container .footer-item ul {
+  padding-left: 0px;
+}
+body footer .card .card-footer .container .footer-item ul li {
+  list-style: none;
+}
+body footer .card .card-footer .container .footer-item ul li a {
+  text-decoration: none;
+  color: orangered;
+}
