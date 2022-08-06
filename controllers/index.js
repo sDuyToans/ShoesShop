@@ -6,7 +6,7 @@ const renderShoes = (arrShoes) =>{
         let product = arrShoes[i];
         html += `
             <div class="card">
-                <a class="product-href" href="/routes/detail/detail.html?productid=${product.id}">
+                <a class="product-href" href="/ShoesShop/routes/detail/detail.html?productid=${product.id}">
                 <img src="${product.image}" class="card-img-top" alt="...">
                 <div class="card-body">
                         <h5 class="card-title">${product.name}</h5>
